@@ -4,7 +4,7 @@ import java.util.*;
 
 public class NextGreaterToRight_3 {
     public static int[] NGR(int[] a) {
-    	System.out.println(a.length);
+    	
     	int n=a.length;
     	Stack<Integer> st=new Stack<>();
     	int[] ans=new int[n];
@@ -50,7 +50,7 @@ public class NextGreaterToRight_3 {
 		
 		//output
 		int[] out=NGR(a);
-		System.out.println(out.length);
+		
 		for(int i=0;i<out.length;i++) {
 			System.out.print(out[i]+" ");
 		}
